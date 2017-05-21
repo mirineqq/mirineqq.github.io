@@ -1,0 +1,110 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+.banner-title {
+  color: #fff;
+  size: 50px;
+  font-family: "Futura PT", "Trebuchet MS", Arial, sans-serif;
+  text-align: left;
+}
+.banner-city {
+  text-align: left;
+  display: block;
+  font-family: "Futura PT", "Trebuchet MS", Arial, sans-serif;
+  color: #fff;
+  size: 38px;
+}
+.banner-text {
+  padding-bottom: 372px;
+}
+.banner-wrapper {
+  background-image: url(../img/banner_img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+}
+.banner {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/*Навигация*/
+.main-nav, .main-nav-item {
+  display: inline-block;
+  line-height: center;
+}
+.page-header {text-align: center;
+}
+
+.btn {
+  border: 2px solid #000;
+  padding: 15px;}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+.logo {
+  border: 3px solid #000;
+  text-decoration: none;
+  font-family: "Avenir Next", sans-serif;
+  padding: 14px 18px;
+  font-weight: bold;
+  size: 25px;
+  color: #000;
+}
+
+.page-header-phone {
+  font-weight: bold;
+  font-size: 22px;
+  padding-right: 25px;
+}
+
+a.btn {
+  text-decoration: none;
+  color: #74e196;
+  text-transform: uppercase;
+  font-family: "Futura PT", "Trebuchet MS", Arial, sans-serif;
+  /*font-weight: 500;*/
+
+}
+
+.main-nav-item {padding: 20px;}
+
+
+/*offer*/
+.offers-container {
+  box-sizing: border-box;
+  font-size: 0;
+}
+.offers-item {
+  display: inline-block;
+  width: 355px;
+  text-align: left;
+  margin: 10px;
+  vertical-align: top;
+  font-size: 16px;
+}
+.offers-item h3 {
+  display: inline;
+}
+
+.offers-item-footer a {
+  display: inline-block;
+  float: right;
+  padding-top: 27px;
+  height: 0;
+  overflow: hidden;
+  background: url(../img/right-arrow.png) no-repeat; /* Фоновый рисунок для замены текста */
+}
