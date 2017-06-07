@@ -1,0 +1,50 @@
+<i class="sprite sprite-Today-100"></i>
+<i class="sprite sprite-bus"></i>
+<i class="sprite sprite-certificate"></i>
+<i class="sprite sprite-like"></i>
+<i class="sprite sprite-ski"></i>
+<i class="sprite sprite-snowboard-helmet"></i>
+
+
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Today-100 {
+    width: 58px;
+    height: 61px;
+    background-position: -10px -10px;
+}
+
+.sprite-bus {
+    width: 80px;
+    height: 55px;
+    background-position: -88px -10px;
+}
+
+.sprite-certificate {
+    width: 53px;
+    height: 61px;
+    background-position: -188px -10px;
+}
+
+.sprite-like {
+    width: 60px;
+    height: 61px;
+    background-position: -261px -10px;
+}
+
+.sprite-ski {
+    width: 61px;
+    height: 75px;
+    background-position: -341px -10px;
+}
+
+.sprite-snowboard-helmet {
+    width: 58px;
+    height: 71px;
+    background-position: -422px -10px;
+}

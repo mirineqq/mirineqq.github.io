@@ -3,26 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="page-header">
-  <a href="/" class="logo">ICE ACE</a>
+<header class="page-header clear">
+<div class="container">
+  <a href="#" class="logo header-logo">ICE ACE</a>
   <nav class="main-nav">
     <ul>
-      <li><a href="#">Расписание</a></li>
-      <li><a href="#">Инструторы</a></li>
-      <li><a href="#">Стоимость</a></li>
-      <li><a href="#">Как добраться</a></li>
+      <li class="main-nav-item"><a href="schedule.html">Расписание</a></li>
+      <li class="main-nav-item"><a href="instructors.html">Инструкторы</a></li>
+      <li class="main-nav-item"><a href="#">Стоимость</a></li>
+      <li class="main-nav-item"><a href="#">Как добраться</a></li>
     </ul>
   </nav>
   <span class="page-header-phone">8 (800) 800-80-80</span>
-  <a href="#" class="btn">Записаться</a>
+  <a href="#" class="button page-header-button">Записаться</a>
+</div>
 </header>
 
-<section class="program">
+<main>
+<section class="schedule">
+  <div class="container">
   <h2>Выбрать программу</h2>
 
-    <div class="program-table">
+    <div class="schedule-table">
       <table>
         <tr>
           <th>Спорт</th>
@@ -84,9 +90,43 @@
         </tr>
       </table>
     </div>
+  </div>
 </section>
 
+<section class="program">
+  <div class="container">
+  <p><img src="#" alt=""></p>
+  <p class="schedule-instructors-name">Констанитин Константинопольский</p>
+  <div class="program-about"></div>
+  </div>
+</section>
+<section class="program-number">
+<div class="container">
+  <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+  </div>
+</section>
+<section class="purchase-form">
+<div class="container">
+<form>
+  <p><label for="name">*Имя</label>
+  <input type="text" name="name" id="name"></p>
+  <p><label for="surname">*Фамилия</label>
+  <input type="text" name="surname" id="surname"></p>
+  <p>
+  <label for="phone">*Телефон</label>
+  <input type="tel" name="phone" id="phone"></p>
+  <p><textarea cols="80" rows="20">...</textarea></p>
+  <p><input type="submit" name="submit" value="Отправить"></p>
+</form>
+</div>
+</section>
+</main>
 <footer>
+<div class="container">
   <nav class="main-nav footer">
     <ul>
       <li><a href="#">Расписание</a></li>
@@ -111,6 +151,7 @@
   <div class="footer-copyright">
     <p>&copy; 2017 &laquo;ICE ACE&raquo; — школа сноуборда и горных лыж. Все права защищены </p>
   </div>
+</div>
 </footer>
 </body>
 </html>

@@ -26,7 +26,7 @@ body {
 .banner-text {
   padding-bottom: 372px;
 }
-.banner-wrapper {
+.banner-container {
   background-image: url(../img/banner_img.jpg);
   background-size: cover;
   background-position: center;

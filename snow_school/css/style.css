@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  background-color: #d6ffff;
+}
+
+.clear {
+   overflow: hidden;
+}
+/*banner*/
+.banner {
+  height: 445px;
+  padding-top: 200px;
+  background-image: url(../img/banner_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* header */
+.page-header {margin-top: 37px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-size: 0;}
+
+
+/* end header */
+
+/* Навигация */
+
+.header-logo, .main-nav-list, .page-header-phone, .page-header-button
+{ float: left; }
+
+.main-nav-list {margin: 25px;}
+.page-header-phone {margin: 20px;}
+
+.main-nav-item {display: inline-block;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  font-size: 15px ;
+  color: #111111;
+  padding-right: 45px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-family: "Futura PT", "Trebuchet MS", Arial, sans-serif;
+  text-transform: uppercase;
+  line-height: middle;
+
+}
+
+.header-logo {
+  display: inline-block;
+  padding: 16px 22px;
+  border: 4px solid #000;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  margin-right: 40px;
+}
+
+.page-header-phone {
+  display: inline-block;
+  font-size: 22px;
+  color: #111;
+  margin-right: 35px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 15px;
+  border: 2px solid #111;
+  font-family: "Futura PT", "Trebuchet MS", Arial, sans-serif;
+  padding: 18px;
+
+
+}
+.page-header-button { margin-top: 7px;}
+/* Навигация конец */
+
+/*offer*/
+.offers {-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-size: 0;}
+
+.offer-title {text-align: center;
+font-size: 40px;}
+
+.offer-subtitle {text-align: center;
+font-size: 20px;
+}
+
+.offers-item {
+  display: inline-block;
+  width: 360px;
+  height: 244px;
+  text-align: left;
+  margin-right: 40px;
+  vertical-align: top;
+  font-size: 15px;
+  margin-top: 40px;
+}
+.offers-item-footer
+{display: block;
+vertical-align: bottom;
+background-color: #fff;}
+.offers-item h3 {
+  display: inline;
+  font-size: 20px;
+}
+.offers-item span {
+  font-size: 20px;
+}
+.offers-item-footer a {
+  display: inline-block;
+  float: right;
+  padding-top: 27px;
+  height: 0;
+  overflow: hidden;
+  background: url(../img/right-arrow.png) no-repeat; /* Фоновый рисунок для замены текста */
+}
+.last-offers-item {margin-right: 0;}
+/* gallery #ice ace */
+
+.gallery-item {
+  float: left;
+  margin-left: 16px;
+}
+.gallery-item:first-child {
+  margin-left: 0;
+}
+.gallery-item:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,66 @@
+*
+{ padding: 0;
+margin: 0;}
+
+.container {
+width: 1160px;
+margin: 0 auto;
+}
+.banner {
+  height: 445px;
+  padding: 200px;
+  background-image: url(cat.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  background-position: center;
+}
+
+.clear {overflow: hidden;}
+
+.logo {float: left;}
+main-nav float: left;
+page header phone float: right;
+page-header-button float: right;
+
+
+
+
+колонка 360пкс отступы по 40пкс
+
+уточки
+
+/* Используя 2 псевдоэлемента,
+спозиционированных абсолютно, создайте крест. Уточек расположите в стандартном потоке. */
+
+
+img {
+  width: 65px;
+  padding: 9px;
+}
+
+.wrap {
+  background: #4DBEBE;
+  width: 166px;
+  font-size: 0;
+  padding: 20px;
+  padding-bottom: 50px;
+  border-radius: 0px 0px 103px 103px;
+  position: relative;
+}
+
+.wrap::before {
+  content: "";
+  border-right: 3px solid #fff;
+  position: absolute;
+  height: 150px;
+  left: 50%;
+}
+.wrap::after {
+  content: "";
+  border: 2px solid #FFF;
+  position: absolute;
+  width: 150px;
+  top: 42%;
+  left: 25px;
+}
